@@ -16,4 +16,3 @@ public class path : MonoBehaviour {
 	}
 }
 
-//path delete
