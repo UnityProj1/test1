@@ -9,10 +9,6 @@ public class path : MonoBehaviour {
 		               ("speed",0.8f, "path", iTweenPath.GetPath ("New Path 1"), 
 		                "orienttopath",true ,"easetype", iTween.EaseType.linear,"oncomplete","endyulan"));
 	}
-	public void endyulan ()
-	{
-		go.GetComponent<FirstPersonController> ().enabled = true;
-		go.GetComponent<path> ().enabled = false;
-	}
+//	sdascdasdas
 }
 
